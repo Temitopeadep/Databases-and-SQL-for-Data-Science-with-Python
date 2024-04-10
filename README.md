@@ -39,7 +39,7 @@ Establish a connection between SQL magic module and the database FinalDB.db
 <img width="404" alt="image" src="https://github.com/Temitopeadep/Databases-and-SQL-for-Data-Science-with-Python/assets/142262047/2ef2f4a4-fb98-474f-8613-082c7bfdfde6">
 
 # Problems
-  - 1 Find the total number of crimes recorded in the CRIME table.
+  1- Find the total number of crimes recorded in the CRIME table.
 
 
 
