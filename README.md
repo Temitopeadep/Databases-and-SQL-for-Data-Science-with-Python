@@ -28,9 +28,15 @@ A detailed description of this dataset and the original dataset can be obtained 
 
 # Store the datasets in database tables
 To analyze the data using SQL, it first needs to be loaded into SQLite DB. We will create three tables in as under
-  1 CENSUS_DATA
-  2 CHICAGO_PUBLIC_SCHOOLS
-  3 CHICAGO_CRIME_DATA
+  - CENSUS_DATA
+  - CHICAGO_PUBLIC_SCHOOLS
+  - CHICAGO_CRIME_DATA
+Load the pandas and sqlite3 libraries and establish a connection to FinalDB.db
+<img width="620" alt="image" src="https://github.com/Temitopeadep/Databases-and-SQL-for-Data-Science-with-Python/assets/142262047/2fb4a4cf-dc19-4490-b994-686967635d68">
+Establish a connection between SQL magic module and the database FinalDB.db
+<img width="404" alt="image" src="https://github.com/Temitopeadep/Databases-and-SQL-for-Data-Science-with-Python/assets/142262047/2ef2f4a4-fb98-474f-8613-082c7bfdfde6">
+
+
 
 
 
