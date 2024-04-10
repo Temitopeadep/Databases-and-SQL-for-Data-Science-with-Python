@@ -2,7 +2,7 @@
 
 ## Background
 This project is final assignment for one of the course(Databases and SQL dor Data Science with Python) that need to be passed for IBM Data analyst Professional Certificate.
-All data used were provided IBM.
+All data used were provided IBM. Ten problems need to be solved using SQLite with Python)
 
 ## Introduction
   - Understand three Chicago datasets
@@ -19,11 +19,19 @@ A detailed description of this dataset and the original dataset can be obtained 
 
   -  Chicago Public Schools
 This dataset shows all school level performance data used to create CPS School Report Cards for the 2011-2012 school year. This dataset is provided by the city of Chicago's Data Portal.
-A detailed description of this dataset and the original dataset can be obtained from the Chicago Data Portal at[link](https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/about_data?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork-20127838&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvo_campaign=000026UJ&cvosrc=email.Newsletter.M12345678&utm_content=000026UJ&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDB0201ENSkillsNetwork20127838-2021-01-01&utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_term=10006555)
+A detailed description of this dataset and the original dataset can be obtained from the Chicago Data Portal at [link](https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t/about_data?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork-20127838&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvo_campaign=000026UJ&cvosrc=email.Newsletter.M12345678&utm_content=000026UJ&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDB0201ENSkillsNetwork20127838-2021-01-01&utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_term=10006555)
 
   - Chicago Crime Data
 This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 A detailed description of this dataset and the original dataset can be obtained from the Chicago Data Portal at [link](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork-20127838&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvo_campaign=000026UJ&cvosrc=email.Newsletter.M12345678&utm_content=000026UJ&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDB0201ENSkillsNetwork20127838-2021-01-01&utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_term=10006555)
+
+
+# Store the datasets in database tables
+To analyze the data using SQL, it first needs to be loaded into SQLite DB. We will create three tables in as under
+  1 CENSUS_DATA
+  2 CHICAGO_PUBLIC_SCHOOLS
+  3 CHICAGO_CRIME_DATA
+
 
 
 
